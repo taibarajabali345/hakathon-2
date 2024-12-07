@@ -1,0 +1,270 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Changed font for a more modern look */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Soft background color */
+    color: #333;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+header, main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #1a73e8; /* Soft blue for the logo */
+    letter-spacing: 2px;
+}
+
+.auth-links {
+    display: flex;
+    gap: 1.5em;
+}
+
+.login-link, .signup-link {
+    padding: 0.7em 1.2em;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-link:hover, .signup-link:hover {
+    background-color: #0c56b5; /* Darker blue on hover */
+}
+
+/* Main Content */
+.main-content {
+    padding: 2em 0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 3em;
+    background-image: url('./image1.jpeg'); /* Background image for the hero section */
+    background-size: cover;
+    background-position: center;
+    padding: 5em 0;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+/* Trending Section */
+.trending {
+    margin-bottom: 3em;
+}
+
+.trending h2 {
+    color: #1a73e8;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.trending .topics span {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.7em 1.5em;
+    background-color: #e7f3fe;
+    border-radius: 30px;
+    color: #1a73e8;
+    font-size: 1.1em;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.trending .topics span:hover {
+    background-color: #1a73e8;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Blog Section */
+.blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 3em;
+}
+
+.blog {
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blog h3 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.blog p {
+    color: #666;
+    margin: 1em 0;
+}
+
+.blog small {
+    color: #aaa;
+}
+
+/* Category Styling */
+.category {
+    /* background-color: #ff4081; */
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+/* Guide Section */
+.guide-tools {
+    margin-bottom: 3em;
+}
+
+.guide-tools h2 {
+    font-size: 2em;
+    color: #1a73e8;
+    margin-bottom: 1em;
+}
+
+.guide-tools ul {
+    list-style: none;
+    padding: 0;
+}
+
+.guide-tools ul li {
+    margin: 0.8em 0;
+    color: #333;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.guide-tools ul li:hover {
+    color: #1a73e8;
+}
+
+/* Newsletter Section */
+.newsletter {
+    text-align: center;
+    background: #e7f3fe;
+    padding: 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 3em;
+}
+
+.newsletter h2 {
+    font-size: 2em;
+    color: #1a73e8;
+    margin-bottom: 1em;
+}
+
+.newsletter p {
+    margin: 1.5em 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.newsletter input {
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 300px;
+    font-size: 1em;
+}
+
+.newsletter button {
+    padding: 0.8em 1.5em;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #f50057;
+}
+
+.newsletter small {
+    color: #666;
+}
+
+/* Image Upload Button for Blog Post */
+.upload-btn {
+    padding: 0.8em 1.5em;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1em;
+}
+
+.upload-btn:hover {
+    background-color: #0c56b5;
+}
+
+.upload-btn input {
+    display: none; /* Hide the file input */
+}
+
+.upload-btn span {
+    font-size: 1.2em;
+}
+
+
+

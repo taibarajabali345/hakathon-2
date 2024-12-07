@@ -1,0 +1,259 @@
+/* body {
+font-family: 'Poppins', Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: linear-gradient(145deg, #1a237e, #880e4f); 
+color: #f3e5f5;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+box-sizing: border-box;
+}
+
+h1 {
+color: #f3e5f5;
+margin-bottom: 20px;
+font-size: 2.5rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+width: 100%;
+max-width: 300px;
+padding: 12px;
+margin: 12px 0;
+border: 1px solid #4a148c;
+border-radius: 8px;
+font-size: 16px;
+box-sizing: border-box;
+background-color: #283593;
+color: #f3e5f5;
+box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+outline: none;
+box-shadow: 0 0 8px rgba(243, 229, 245, 0.8);
+transform: scale(1.02);
+}
+
+input[type="radio"] {
+margin-right: 8px;
+accent-color: #d81b60; 
+}
+
+label {
+font-size: 16px;
+margin-right: 15px;
+color: #f3e5f5;
+}
+
+.role-container {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin: 12px 0;
+padding: 10px;
+border: 1px solid #4a148c;
+border-radius: 8px;
+background-color: #1a237e;
+color: #f3e5f5;
+}
+
+.role-container label {
+margin-bottom: 5px;
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+button {
+background: linear-gradient(145deg, #d81b60, #ad1457);
+color: white;
+padding: 12px 24px;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-size: 16px;
+margin-top: 12px;
+transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+background: linear-gradient(145deg, #ad1457, #d81b60);
+transform: translateY(-2px);
+}
+
+a {
+color: #d81b60;
+text-decoration: none;
+margin: 10px;
+font-size: 14px;
+transition: color 0.3s ease;
+}
+
+a:hover {
+color: #ad1457;
+text-decoration: underline;
+}
+
+#users-list {
+width: 100%;
+max-width: 600px;
+margin-top: 20px;
+background: linear-gradient(145deg, #283593, #1a237e); 
+border: 1px solid #1a237e;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#users-list div {
+padding: 12px;
+border-bottom: 1px solid #1a237e;
+color: #f3e5f5;
+}
+
+#users-list div:last-child {
+border-bottom: none;
+} */
+
+
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1b2a; /* Dark blue background */
+    color: #e0f7fa; /* Light cyan text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Heading Styling */
+h1 {
+    color: #00bcd4; /* Light blue color for the heading */
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #0288d1; /* Blue border */
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #1a2e46; /* Darker blue background */
+    color: #e0f7fa; /* Light text inside inputs */
+    box-sizing: border-box;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus State for Input Fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #00bcd4; /* Light blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 188, 212, 0.6); /* Light blue glow */
+}
+
+/* Label Styling */
+label {
+    font-size: 16px;
+    color: #e0f7fa; /* Light color for labels */
+    margin-bottom: 6px;
+}
+
+/* Button Styling */
+button {
+    background-color: #0288d1; /* Blue background */
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0277bd; /* Darker blue on hover */
+    transform: translateY(-2px);
+}
+
+/* Link Styling */
+a {
+    color: #00bcd4; /* Light blue color for links */
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+/* Link Hover Effect */
+a:hover {
+    color: #0288d1; /* Slightly darker blue on hover */
+    text-decoration: underline;
+}
+
+/* Role Section Styling */
+.role-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid #0288d1; /* Blue border */
+    border-radius: 6px;
+    background-color: #1a2e46; /* Dark blue background */
+}
+
+.role-container label {
+    margin-bottom: 5px;
+}
+
+/* User List Styling */
+#users-list {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 30px;
+    background-color: #1a2e46; /* Dark blue background for the list */
+    border: 1px solid #0288d1; /* Blue border */
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#users-list div {
+    padding: 12px;
+    border-bottom: 1px solid #0288d1; /* Blue border between users */
+    color: #e0f7fa;
+}
+
+#users-list div:last-child {
+    border-bottom: none;
+}
+
+
